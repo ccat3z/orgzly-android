@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:orientation="horizontal"
-        android:background="@color/widget_light_header_bg_color"
+        android:background="@drawable/list_widget_header_background"
         android:elevation="1dp" tools:targetApi="21">
 
         <ImageView
@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/widget_light_list_bg_color">
+        android:background="@drawable/list_widget_list_background">
 
         <ListView
             android:id="@+id/list_widget_list_view"

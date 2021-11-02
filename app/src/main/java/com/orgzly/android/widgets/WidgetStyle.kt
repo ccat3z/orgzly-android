@@ -26,10 +26,10 @@ object WidgetStyle {
 
     @JvmStatic
     fun updateWidget(remoteViews: RemoteViews, context: Context) {
-        remoteViews.setInt(
-                R.id.list_widget_header_container,
-                "setBackgroundColor",
-                headerBackground(context))
+//        remoteViews.setInt(
+//                R.id.list_widget_header_container,
+//                "setBackgroundColor",
+//                headerBackground(context))
 
         remoteViews.setTextViewTextSize(
                 R.id.list_widget_header_selection,
@@ -44,10 +44,10 @@ object WidgetStyle {
                 R.id.list_widget_empty_view,
                 primaryTextColor(context))
 
-        remoteViews.setInt(
-                R.id.list_widget_list_container,
-                "setBackgroundColor",
-                listBackgroundColor(context))
+//        remoteViews.setInt(
+//                R.id.list_widget_list_container,
+//                "setBackgroundColor",
+//                listBackgroundColor(context))
     }
 
     @JvmStatic
